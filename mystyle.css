@@ -1,12 +1,19 @@
 /*mystyle.css*/
 body {
-  background-color: #f0f8ff; /*背景色 */
+  background-color: #f0f8ff;
 }
 h1 {
   color: blue;
 }
 table, th, td {
-  border: 1px solid dashed thick black; 
+  border: 1px solid black; 
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #e6f2ff;
 }
 th.important {
   color: red;
