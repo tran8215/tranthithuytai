@@ -5,6 +5,10 @@ body {
 h1 {
   color: blue;
 }
+/* h1 { color: green; }*/
+h1 {
+  color: #f0a050;
+}
 table, th, td {
   border: 1px solid black; 
   border-collapse: collapse;
