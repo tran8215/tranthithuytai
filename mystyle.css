@@ -6,7 +6,7 @@ h1 {
 h1 {
   color: #f0a050;
 }
-table, th, td {
+th, td {
   border: dashed thick black;
 }
 th.important {
